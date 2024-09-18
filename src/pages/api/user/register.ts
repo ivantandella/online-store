@@ -1,5 +1,5 @@
+import { signUp } from "@/sevices/auth";
 import type { NextApiRequest, NextApiResponse } from "next";
-import { signUp } from "@/lib/firebase/sevice";
 
 export default async function handler(
   req: NextApiRequest,

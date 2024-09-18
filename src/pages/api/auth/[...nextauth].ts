@@ -1,4 +1,4 @@
-import { loginWithGoogle, signIn } from "@/lib/firebase/sevice";
+import { loginWithGoogle, signIn } from "@/sevices/auth";
 import { compare } from "bcrypt";
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
